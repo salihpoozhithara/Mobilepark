@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.logo{
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+span{
+    color: #707270;
+    font-family: 'Tilt Warp', cursive;
+}
+.navbar-nav {
+    font-weight: bold;
+}

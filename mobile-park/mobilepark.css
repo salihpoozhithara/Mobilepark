@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.logo{
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+span{
+    color: #707270;
+    font-family: 'Tilt Warp', cursive;
+}
+.navbar-nav {
+    font-weight: bold;
+}
+
+.container img{
+    height: 500px;
+}
+.text{
+    padding-top: 119px;
+}
+.buy{
+    background: linear-gradient(180deg,#f5f7fb,rgba(245,247,251,0));
+    padding: 60px 40px;
+}
+.items img{
+    height: 80px;
+    margin-top: 30px;
+ }
+ .r1{
+    background-color: rgb(208, 211, 213);
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 33px;
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 20px #696c76, -10px -10px 20px #ffffff;
+    box-shadow: 7px 18px 15px #696c76, -10px -10px 20px #ffffff;
+ }
+ .cards{
+    padding: 50px;
+
+    
+ }
+
+
+ 
+ .card{
+    width: 50px;
+    height: 50px;
+ }
+ .card-body:hover , .card-text:hover{
+    background-color: rgb(209, 209, 209)
+ }
+/* .inner{
+    overflow: hidden;
+} */
+.inner1 img{
+    transition: all 1.5s ease;
+
+}
+.inner1:hover img{
+    transform: scale(1.3);
+}
+.inner img{
+    transition: all 1.5s ease;
+    height: 70px;
+    width: 70px;
+    margin: 80px;
+}
+.inner:hover img{
+    transform: scale(2.5);
+}
+ .footer{
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 20px;
+    background-color: rgb(209, 209, 209)
+ }
+ .ftr a{
+    text-decoration: none;
+    color: black;
+ }
+ .footer input{
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+ }
+ .copyright{
+    text-align: center;
+ }
+
+
+
+ @media only screen and (max-width: 1461px){
+     .r1{
+    background-color: rgb(208, 211, 213);
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    align-items: center;
+ }
+ .items .btn{
+    width: 106px;
+ }
+    
+ }
+
+ @media only screen and (max-width: 992px){
+    .r1{
+        background-color: rgb(208, 211, 213);
+        width: 90%;
+        height: 172px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+     }
+
+ }
+ @media only screen and (max-width: 764px){
+    .footer input{
+        width: 210px;
+    }
+    .footer-logo{
+      margin-left: -47px;
+    }
+    .cards{
+        padding: 180px;
+    }
+    
+ }
+
+ @media only screen and (max-width: 595px){
+    .cards{
+        padding: 130px;
+    }
+ }
+ @media only screen and (max-width: 493px){
+    .cards{
+        padding: 110px;
+    }
+ }
+ @media only screen and (max-width: 450px){
+    .cards{
+        padding: 80px;
+    }
+ }
+ @media only screen and (max-width: 400px){
+    .cards{
+        padding: 60px;
+    }
+ }
+ @media only screen and (max-width: 370px){
+    .cards{
+        padding: 40px;
+    }
+ } @media only screen and (max-width: 350px){
+    .cards{
+        padding: 20px;
+    }
+ }
+
+
+
